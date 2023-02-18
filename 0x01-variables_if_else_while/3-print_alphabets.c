@@ -1,13 +1,14 @@
 #include <stdio.h>
 /**
  * main - prints alpha in lower and upper case
+ * followed bby a new line
  * Return: Always 0
  */
 int main(void)
 {
-	char ch;
+	int ch;
 
-	for ch = 'a'; ch <= 'z'; ch++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 		putchar(ch);
 
 	for (ch = 'A'; ch <= 'Z'; ch++)
