@@ -5,7 +5,7 @@
  * rot13 - encodes a string using rot13.
  * @str: the string to be encoded.
  *
- * Return: *str
+ * Return: str
  */
 char *rot13(char *str)
 {
